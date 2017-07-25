@@ -3,11 +3,15 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
 }
 
 .logo {
   display: flex;
   color: MediumAquamarine;
+  align-items: center;
+  padding: 10px;
 }
 
 nav {
@@ -16,4 +20,61 @@ nav {
 
 nav .span {
   display: inline-block;
+}
+
+nav a {
+  color: black;
+  padding: 20px;
+}
+
+.logo img {
+  padding-right: 10px;
+}
+
+.main-content {
+  display: flex;
+  border: 1px solid black;
+  padding-top: 40px;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+  align-items: center;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.story-pic {
+  border: 1px solid black;
+}
+
+.story-content {
+
+}
+
+.bite {
+
+}
+
+.news-bites {
+  border: 1px solid black;
 }
